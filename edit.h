@@ -1,6 +1,8 @@
 #include<stdio.h>
 #include"music.h"
 
+
+/*edit file info*/
 Status editInfo(Music *music,char *ch,char *name);
 
 Status renametag(Music *music,char *ch,char *name,FILE *fptr_dest);
